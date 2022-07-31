@@ -245,7 +245,3 @@ FROM FLO F
 
 SELECT master_id,last_order_date FROM FLO
 WHERE last_order_date=(SELECT MAX(last_order_date) FROM FLO)
-
-
-
-
